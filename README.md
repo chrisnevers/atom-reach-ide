@@ -1,5 +1,24 @@
-# reach-ide package
+# Reach IDE Package
 
-A short description of your package.
+Provides commands to build and run [Reach](https://reach.sh') programs in [Atom](https://atom.io/).
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Current Capabilities
+* Commands
+    * Compile Program
+    * Run Program
+* Keybindings
+    |keystroke|command|
+    |--------|-------|
+    |ctrl-shift-c|compile|
+    |ctrl-shift-r|run|
+
+Also, install the [`language-reach`](https://github.com/chrisnevers/language-reach) package for language support:
+
+* Syntax highlighting
+* Snippets
+    |trigger|name|
+    |-------|----|
+    |`reach`|Simple Reach Program|
+
+## Future Capabilities:
+* LSP
