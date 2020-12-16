@@ -1,14 +1,17 @@
 {
   "name": "reach-ide",
   "main": "./lib/reach-ide",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Reach IDE",
   "keywords": [
     "language",
     "grammar"
   ],
   "activationCommands": {
-    "atom-workspace": ["reach-ide:run", "reach-ide:compile"]
+    "atom-workspace": [
+      "reach-ide:run",
+      "reach-ide:compile"
+    ]
   },
   "repository": "https://github.com/chrisnevers/atom-reach-ide",
   "license": "MIT",
